@@ -12,8 +12,6 @@ int main() {
     std::ifstream input_file("testing spaces.txt");
     std::vector<int> test{std::istream_iterator<int>(input_file), std::istream_iterator<int>()};
 
-    
-
 	std::cout << "hello ! \n";
 	return 0;
 }
